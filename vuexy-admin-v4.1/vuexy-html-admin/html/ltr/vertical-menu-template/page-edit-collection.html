@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+<!-- BEGIN: Head-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Data</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap4.min.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description"
+        content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords"
+        content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="PIXINVENT">
+    <title>Dashboard analytics - Vuexy - Bootstrap HTML admin template</title>
+    <link rel="apple-touch-icon" href="../../../app-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../../app-assets/images/ico/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
+
+    <!-- BEGIN: Vendor CSS-->
+
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/charts/apexcharts.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/extensions/tether-theme-arrows.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/extensions/tether.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/extensions/shepherd-theme-default.css">
+    <!-- END: Vendor CSS-->
+
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/components.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/dark-layout.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/semi-dark-layout.css">
+
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/menu/menu-types/vertical-menu.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/colors/palette-gradient.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/pages/dashboard-analytics.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/pages/card-analytics.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/plugins/tour/tour.css">
+
+
+    <!-- END: Page CSS-->
+
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/style.css">
+    <!-- END: Custom CSS-->
+
+</head>
+<!-- END: Head-->
+
+<!-- BEGIN: Body-->
+
+<body class="vertical-layout vertical-menu-modern 2-columns  navbar-floating footer-static  " data-open="click"
+    data-menu="vertical-menu-modern" data-col="2-columns">
+
+    <!-- BEGIN: Header-->
+    <nav class="header-navbar navbar-expand-lg navbar navbar-with-menu floating-nav navbar-light navbar-shadow">
+        <div class="navbar-wrapper">
+            <div class="navbar-container content">
+                <div class="navbar-collapse" id="navbar-mobile">
+                    <div class="mr-auto float-left bookmark-wrapper d-flex align-items-center">
+
+                    </div>
+                    <ul class="nav navbar-nav float-right">
+
+                        <li class="nav-item d-none d-lg-block"><a class="nav-link nav-link-expand"><i
+                                    class="ficon feather icon-maximize"></i></a></li>
+
+
+                        <li class="dropdown dropdown-user nav-item"><a
+                                class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown">
+                                <div class="user-nav d-sm-flex d-none"><span class="user-name text-bold-600">John
+                                        Doe</span><span class="user-status">Available</span></div><span><img
+                                        class="round" src="../../../app-assets/images/portrait/small/avatar-s-11.jpg"
+                                        alt="avatar" height="40" width="40"></span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item"
+                                    href="page-user-profile.html"><i class="feather icon-user"></i> Edit Profile</a>
+
+                                <div class="dropdown-divider"></div><a class="dropdown-item" href="auth-login.html"><i
+                                        class="feather icon-power"></i> Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- END: Header-->
+
+
+    <!-- BEGIN: Main Menu-->
+    <div class="main-menu menu-fixed menu-light menu-accordion menu-shadow" data-scroll-to-active="true">
+        <div class="navbar-header">
+            <ul class="nav navbar-nav flex-row">
+                <li class="nav-item mr-auto"><a class="navbar-brand"
+                        href="../../../html/ltr/vertical-menu-template/index.html">
+
+                        <h2 class="brand-text mb-0">flex frames</h2>
+                    </a></li>
+                <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"><i
+                            class="feather icon-x d-block d-xl-none font-medium-4 primary toggle-icon"></i><i
+                            class="toggle-icon feather icon-disc font-medium-4 d-none d-xl-block collapse-toggle-icon primary"
+                            data-ticon="icon-disc"></i></a></li>
+            </ul>
+        </div>
+        <div class="shadow-bottom"></div>
+        <div class="main-menu-content">
+            <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+                <li class=" nav-item"><a href="index.html"><i class="feather icon-home"></i><span class="menu-title"
+                            data-i18n="Dashboard">Dashboard</span></a>
+                    <ul class="menu-content">
+                        <li class=""><a href="index.html"><i class="feather icon-circle"></i><span class="menu-item"
+                                    data-i18n="Analytics">Analytics</span></a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class=" navigation-header"><span>Pages</span>
+                </li>
+                <li class="nav-item"><a href="page-product.html"><i class="feather icon-mail"></i><span
+                            class="menu-title" data-i18n="Email">Add Products</span></a>
+                </li>
+                <li class="nav-item"><a href="page-showProducts.html"><i class="feather icon-message-square"></i><span
+                            class="menu-title" data-i18n="Chat">Display Products</span></a>
+                </li>
+                <li class="active"><a href="collections.html"><i class="feather icon-message-square"></i><span
+                            class="menu-title" data-i18n="Chat">Collections</span></a>
+                </li>
+                <li class="nav-item"><a href="app-todo.html"><i class="feather icon-check-square"></i><span
+                            class="menu-title" data-i18n="Todo">Dispatched</span></a>
+                </li>
+                <li class=" nav-item"><a href="app-calender.html"><i class="feather icon-calendar"></i><span
+                            class="menu-title" data-i18n="Calender">Pending</span></a>
+                </li>
+                <li class=" nav-item"><a href="app-calender.html"><i class="feather icon-calendar"></i><span
+                            class="menu-title" data-i18n="Calender">Account settings</span></a>
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+    <!-- END: Main Menu-->
+
+    <!-- BEGIN: Content-->
+    <div class="app-content content">
+        <div class="content-overlay"></div>
+        <div class="header-navbar-shadow"></div>
+        <div class="content-wrapper">
+            <div class="content-header row">
+            </div>
+            <div class="content-body">
+                <!-- users list start -->
+                <section class="users-list-wrapper">
+
+                    <!-- Add new User -->
+                    <div id="basic-examples">
+                        <div class="card">
+                            <div class="card-content mx-5">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <form id="editCollectionForm" enctype="multipart/form-data">
+                                            <label for="title">Collection Title:</label>
+                                            <br>
+                                            <input class="form-control" type="text" id="edit-collectionName"
+                                                name="collectionName" required><br>
+                                            <label for="collectionImage">Product Image:</label>
+                                            <br>
+                                            <div class="edit-custom-file">
+                                                <input type="file" class="" id="edit-collectionImage"
+                                                    name="collectionImage">
+                                                <img id="current-collection-image" src=""
+                                                    alt="Current collection Image">
+                                            </div>
+
+                                            <input class="btn btn-primary mr-1 mt-2 mb-1 waves-effect waves-light"
+                                                type="submit" value="Edit Collection">
+                                        </form>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                </section>
+                <!-- users list ends -->
+
+            </div>
+        </div>
+    </div>
+    <!-- END: Content-->
+
+    <div class="sidenav-overlay"></div>
+    <div class="drag-target"></div>
+
+    <!-- BEGIN: Footer-->
+    <footer class="footer footer-static footer-light">
+        <p class="clearfix blue-grey lighten-2 mb-0"><span
+                class="float-md-left d-block d-md-inline-block mt-25">COPYRIGHT &copy; 2023<a
+                    class="text-bold-800 grey darken-2" href="https://1.envato.market/pixinvent_portfolio"
+                    target="_blank">FlexFrames,</a>All rights Reserved</span><span
+                class="float-md-right d-none d-md-block">Hand-crafted & Made with<i
+                    class="feather icon-heart pink"></i></span>
+            <button class="btn btn-primary btn-icon scroll-top" type="button"><i
+                    class="feather icon-arrow-up"></i></button>
+        </p>
+    </footer>
+    <!-- END: Footer-->
+
+
+    <!-- BEGIN: Vendor JS-->
+    <script src="../../../app-assets/vendors/js/vendors.min.js"></script>
+    <!-- BEGIN Vendor JS-->
+
+    <!-- BEGIN: Page Vendor JS-->
+    <script src="../../../app-assets/vendors/js/charts/apexcharts.min.js"></script>
+    <script src="../../../app-assets/vendors/js/extensions/tether.min.js"></script>
+    <script src="../../../app-assets/vendors/js/extensions/shepherd.min.js"></script>
+    <!-- END: Page Vendor JS-->
+
+    <!-- BEGIN: Theme JS-->
+    <script src="../../../app-assets/js/core/app-menu.js"></script>
+    <script src="../../../app-assets/js/core/app.js"></script>
+    <script src="../../../app-assets/js/scripts/components.js"></script>
+    <!-- END: Theme JS-->
+
+    <!-- BEGIN: Page JS-->
+    <script src="../../../app-assets/js/scripts/pages/dashboard-analytics.js"></script>
+    <!-- END: Page JS-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const collectionID = urlParams.get('collectionID');
+        function updateImagePreview() {
+            const input = document.getElementById("edit-collectionImage");
+            const preview = document.getElementById("current-collection-image");
+
+            if (input.files && input.files[0]) {
+                const reader = new FileReader();
+
+                reader.onload = function (e) {
+                    preview.src = e.target.result;
+                };
+
+                reader.readAsDataURL(input.files[0]);
+            } else {
+                preview.src = "";
+            }
+        }
+        axios.get(`http://localhost:8000/collectionsInfo/${collectionID}`)
+            .then(function (response) {
+
+                const collection = response.data;
+                console.log("getting", collection);
+                const image = '../../../../../../../backend/' + collection.collectionImagePath;
+                document.getElementById("edit-collectionName").value = collection.collectionName;
+                document.getElementById("current-collection-image").src = image;
+            })
+            .catch(function (error) {
+                console.log(error)
+            });
+
+
+        const editCollectionImageInput = document.getElementById("edit-collectionImage");
+
+        editCollectionImageInput.addEventListener("change", function () {
+            updateImagePreview();
+        });
+        const editCollectionForm = document.getElementById('editCollectionForm');
+        editCollectionForm.addEventListener("submit", function (e) {
+            e.preventDefault();
+            const formData = new FormData();
+            formData.append("collectionName", document.getElementById("edit-collectionName").value);
+            formData.append("collectionImage", editCollectionImageInput.files[0]);
+
+            axios.put(`http://localhost:8000/collections/${collectionID}`, formData, {
+                headers: {
+                    "Content-Type": "multipart/form-data",
+                },
+            })
+                .then(function (response) {
+                    console.log(response.data);
+                    window.location.href = "collections.html";
+                })
+                .catch(function (error) {
+                    console.error(error);
+                });
+        });
+
+    </script>
+</body>
+
+</html>
