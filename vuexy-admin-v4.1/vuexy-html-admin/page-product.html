@@ -327,7 +327,7 @@
                 const formData = new FormData(productForm);
 
                 try {
-                    const response = await fetch("http://localhost:8000/products", {
+                    const response = await fetch("https://impossible-hare-leather-jacket.cyclic.app/products", {
                         method: "POST",
                         body: formData,
                     });
@@ -349,7 +349,7 @@
             const collectionsSelect = document.getElementById('collectionsSelect');
             const collectionNameInput = document.getElementById('collectionName'); // Get the collectionName input
 
-            axios.get('http://localhost:8000/collections')
+            axios.get('https://impossible-hare-leather-jacket.cyclic.app/collections')
                 .then(function (response) {
                     const collections = response.data;
 

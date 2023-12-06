@@ -275,7 +275,7 @@
                      ],
                 });
                 
-                axios.get(`http://localhost:8000/collections/${collectionID}`)
+                axios.get(`https://impossible-hare-leather-jacket.cyclic.app/collections/${collectionID}`)
                     .then(function (response) {
                         const products = response.data;
                         products.forEach(function (product) {
@@ -310,7 +310,7 @@
                 const row = $(this).closest('tr'); 
                 const productId = $(this).data('id');
 
-                axios.delete(`http://localhost:8000/products/${productId}`)
+                axios.delete(`https://impossible-hare-leather-jacket.cyclic.app/products/${productId}`)
                     .then(function (response) {
                      
                         console.log(response.data); 
