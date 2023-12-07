@@ -263,7 +263,7 @@
                 preview.src = "";
             }
         }
-        axios.get(`https://impossible-hare-leather-jacket.cyclic.app/collectionsInfo/${collectionID}`)
+        axios.get(`https://indigo-python-tam.cyclic.app/collectionsInfo/${collectionID}`)
             .then(function (response) {
 
                 const collection = response.data;
@@ -289,7 +289,7 @@
             formData.append("collectionName", document.getElementById("edit-collectionName").value);
             formData.append("collectionImage", editCollectionImageInput.files[0]);
 
-            axios.put(`https://impossible-hare-leather-jacket.cyclic.app/collections/${collectionID}`, formData, {
+            axios.put(`https://indigo-python-tam.cyclic.app/collections/${collectionID}`, formData, {
                 headers: {
                     "Content-Type": "multipart/form-data",
                 },

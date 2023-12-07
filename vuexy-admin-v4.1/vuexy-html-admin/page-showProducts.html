@@ -253,7 +253,7 @@
                 ],
             });
 
-            axios.get('https://impossible-hare-leather-jacket.cyclic.app/products')
+            axios.get('https://indigo-python-tam.cyclic.app/products')
                 .then(function (response) {
                     const products = response.data;
                     products.forEach(function (product) {
@@ -288,7 +288,7 @@
             const row = $(this).closest('tr'); 
             const productId = $(this).data('id');
 
-            axios.delete(`https://impossible-hare-leather-jacket.cyclic.app/products/${productId}`)
+            axios.delete(`https://indigo-python-tam.cyclic.app/products/${productId}`)
                 .then(function (response) {
                    
                     console.log(response.data);
