@@ -336,22 +336,14 @@
     }, */
                     });
                     console.log(response);
-                  /*   if (response.status === 201) {
+                    if (response.status === 201) {
                         alert("Product successfully added");
                         productForm.reset();
                         document.getElementById('image-label').innerHTML = 'choose File';
                         window.location.reload();
                     } else {
                         alert("Failed to add product");
-                    } */
-                    if (response.status === 201) {
-                        alert("Product successfully added");
-} else if (response.status === 400) {
-    console.error("Bad Request:", await response.json());
-} else {
-    console.error("Unexpected Error:", response.statusText);
-}
-
+                    }
                 } catch (error) {
                     console.error("Error:", error);
                 }
