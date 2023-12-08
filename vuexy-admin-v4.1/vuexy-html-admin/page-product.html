@@ -330,10 +330,10 @@
                     const response = await fetch(`https://indigo-python-tam.cyclic.app/products`, {
                         method: "POST",
                         body: formData,
-                        credentials:"include",
-                        headers: {
-        "Content-Type": "application/json", // Adjust this based on your server expectations
-    },
+                        //credentials:"include",
+                       /*  headers: {
+        "Content-Type": "application/json", 
+    }, */
                     });
                     if (response.status === 201) {
                         alert("Product successfully added");
