@@ -253,7 +253,7 @@
                 ],
             });
 
-            axios.get('https://indigo-python-tam.cyclic.app/products')
+            axios.get(`https://indigo-python-tam.cyclic.app/products`)
                 .then(function (response) {
                     const products = response.data;
                     products.forEach(function (product) {
