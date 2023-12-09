@@ -326,7 +326,7 @@
                 const formData = new FormData(productForm);
 
                 try {
-                    const response = await fetch(`api/products`, {
+                    const response = await fetch(`https://indigo-python-tam.cyclic.app/products`, {
                         method: "POST",
                         mode:"cors",
                         body: formData,
@@ -356,7 +356,7 @@
             const collectionsSelect = document.getElementById('collectionsSelect');
             const collectionNameInput = document.getElementById('collectionName'); // Get the collectionName input
 
-            axios.get(`api/collections`)
+            axios.get(`https://indigo-python-tam.cyclic.app/collections`)
                 .then(function (response) {
                     const collections = response.data;
 
